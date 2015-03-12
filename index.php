@@ -131,7 +131,7 @@
 								while ( $rowTmp = $stmtTmp->fetch( PDO::FETCH_ASSOC ) ){
 									$count++;
 								}
-								echo '<td rowspan="'.$count.'" class="TourneeCell">'.$colorT.(string)$rowT['libelle'].(string)$rowS['statut_tournee'].'</td>';
+								echo '<td rowspan="'.$count.'" class="TourneeCell">'.$colorT.(string)$rowT['libelle'].'</td>';
 								$T = 1;
 							}
 							if ($P == 0) { // Pdl
