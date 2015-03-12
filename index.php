@@ -163,7 +163,7 @@
 		}
 		?>
 
-		<button href="raz.php">Remise à zéro !</button>
+		<a href="raz.php"><button>Remise à zéro !</button></a>
 	</div>
 </body>
 </html>
