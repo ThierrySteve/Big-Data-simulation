@@ -1,3 +1,9 @@
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>SALM - Suivi Livraion</title>
+	<link rel="stylesheet" type="text/css" href="custom.css">
+</head>
 <?php 
   	try {
 		//$conn = new PDO ("sqlsrv:Server= tcp:orh0gtnyo4.database.windows.net,1433 ; Database = DATABASE_GLASS", "googleglass", "PVILpvil122");    
