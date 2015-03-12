@@ -6,7 +6,7 @@
 		$conn->setAttribute( PDO::SQLSRV_ATTR_QUERY_TIMEOUT, 1 );
 
 		// Tournées
-		$queryT = 'update glassCGIt.Tournee_PDL_Article set statut_tournee = \'Attente\', statut_pdl = \'Attente\', statut_livraison = \'Attente\'';
+		$queryT = 'update glassCGIt.Tournee_PDL_Article set statut_tournee = \'Attente\', statut_pdl = \'Attente\', statut_livraison = \'Attente\', endommage = \'NON\'';
 		$stmtT = $conn->query( $queryT );
 		echo "Remise à zéro réussit";
 		header('Location: index.php');
