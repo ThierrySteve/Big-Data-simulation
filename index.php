@@ -162,6 +162,8 @@
 			die(print_r($e));
 		}
 		?>
+
+		<button href="raz.php">Remise à zéro !</button>
 	</div>
 </body>
 </html>
