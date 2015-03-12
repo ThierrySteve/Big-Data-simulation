@@ -1,0 +1,71 @@
+/* ---------------------------------------------------------- */
+
+
+
+/* ---------------------------------------------------------- */
+
+/* ----------------- GLOBAL ----------------- */
+/* reset styles */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var, b, u, i, center,
+dl, dt, dd, ol, ul, li, fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {margin: 0; padding: 0;  border: 0; outline: 0; font-size: 100; vertical-align: baseline; background: transparent; border-collapse: collapse;}
+body {font-family: "Helvetica Neue",Helvetica,Arial,sans-serif; font-size: 14px;}
+td {vertical-align: middle; font-size: 10px; padding: 5px;}
+
+/* ----------------- TOP HEADER ----------------- */
+.TopHeader {background: #333; position: relative; height: 20px;}
+.TopHeader .LogoContainer {position: absolute; left: 0; height: 20px; overflow: hidden;}
+.TopHeader .LogoSalm {height: 16px; border: 2px solid white;}
+.TopHeader .HorodatageContainer {position: absolute; right: 0; height: 20px; color: #FFF; font-size: 11px; border-left: 1px solid #848484; line-height: 18px; padding: 0 14px; background: #000;}
+.TopHeader .HorodatageLabel {font-size: 10px; padding-right: 14px; color: #BBB;}
+.TopHeader .HorodatageDate {font-weight: bold;}
+.TopHeader .HorodatageHour {font-weight: bold;}
+
+/* ----------------- HEADER ----------------- */
+.Header {background: #DDD; position: relative;}
+.Header .BaseLine {display: inline-block;}
+.Header .BaseLine h1 {font-weight: normal; color: #666; padding: 20px 20px;}
+.Header .SummaryContainer {display: inline-block; position: absolute; right: 0; top: 0;}
+.Header .SummaryLine {border-bottom: 1px solid #BBB; height: 24px; line-height: 22px;}
+.Header .SummaryLine:last-child {border: none;}
+.Header .LabelLine {color: #777; font-size: 10px; width: 70px; display: inline-block; text-align: right; padding-right: 10px;}
+.Header .ValueLine {display: inline-block; width: 100px; text-align: center; font-size: 12px; font-weight: bold; background: rgba(17, 17, 17, 0.07);}
+
+/* ----------------- LEGEND ----------------- */
+.LegendContainer {background: #EEE; padding: 10px 15px; border-bottom: 1px solid #BBB; box-shadow: 0 6px 3px -5px #A0A0A0 inset;}
+.LegendContainer .TitleLegendContainer {display: inline-block; width: 12%;}
+.LegendContainer .TitleLegendContainer p {color: #999; font-size: 11px; text-transform: uppercase; font-weight: bold;}
+.LegendContainer .ItemLegendContainer {display: inline-block; width: 79%; text-align: center;}
+.LegendContainer .Spot {width: 10px; height: 10px; border-radius: 20px; display: inline-block;}
+.LegendContainer .SpotStandBy {background: #83B4D6;}
+.LegendContainer .SpotInCourse {background: #FBBE99;}
+.LegendContainer .SpotFinish {background: #D2E1A1;}
+.LegendContainer .SpotDammage {width: 10px; height: 10px;}
+.LegendContainer .Label {font-size: 11px; margin-right: 20px; color: #666;}
+
+/* ----------------- TABLE HEADER ----------------- */
+.TableHeader {padding: 20px 20px 0 20px;}
+.TableHeader table {width: 100%; box-shadow: 0 0 5px rgba(0,0,0,0.2); border-radius: 4px; overflow: hidden;}
+.TableHeader .TourneeTh {width: 20%;}
+.TableHeader .PdlTh {width: 20%;}
+.TableHeader .ArticleTh {width: 60%;}
+
+/* ----------------- MAIN CONTENT ----------------- */
+.MainContent {padding: 20px;}
+.MainContent table:nth-child(even) {background: #F4F4F4;}
+.MainContent table {width: 100%; margin-bottom: 20px; box-shadow: 0 0 5px rgba(0,0,0,0.2); border-radius: 4px; overflow: hidden;}
+.MainContent .Spot {width: 10px; height: 10px; border-radius: 20px; display: inline-block; margin-right: 5px;}
+.MainContent .SpotStandBy {background: #83B4D6;}
+.MainContent .SpotInCourse {background: #FBBE99;}
+.MainContent .SpotFinish {background: #D2E1A1;}
+.MainContent .SpotDammage {width: 10px; height: 10px;}
+.TourneeCell {width: 20%; box-shadow: -6px 0px 5px -5px rgba(0, 0, 0, 0.4) inset; text-align: center; font-size: 12px; font-weight: bold;}
+.PdlCell {width: 20%; box-shadow: 0px -7px 0px -5px #DDDDDD inset; padding-left: 10px; font-weight: bold;}
+.PdlCell:last-child {width: 20%; border-bottom: 0px solid #DDD;}
+.ArticleCell {width: 60%; box-shadow: 6px 0px 5px -5px rgba(0, 0, 0, 0.4) inset, 0px -5px 1px -5px #B9B9B9 inset; padding-left: 10px; color: #777;}
+.LastArticleCell {box-shadow: 6px 0px 5px -5px rgba(0, 0, 0, 0.4) inset, 0px -7px 0px -5px #DDDDDD inset; padding-left: 10px; color: #777;}
+
+
+       
