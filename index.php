@@ -70,32 +70,32 @@
 			$conn->setAttribute( PDO::SQLSRV_ATTR_QUERY_TIMEOUT, 1 );
 
 			// Tournées
-			$queryT = 'select * from glassCGI.Tournees';
+			$queryT = 'select * from glassCGIt.Tournees';
 			$stmtT = $conn->query( $queryT );
 			while ( $rowT = $stmtT->fetch( PDO::FETCH_ASSOC ) ){
 				echo '<table width=100%>';
 				$T = 0;
 
 			   	// PDL with Tournée
-				$queryP = 'select * from glassCGI.PDL where id in (select id_pdl from glassCGI.Tournee_PDL_Article where id_tournee = \''.$rowT['id'].'\')';
+				$queryP = 'select * from glassCGIt.PDL where id in (select id_pdl from glassCGIt.Tournee_PDL_Article where id_tournee = \''.$rowT['id'].'\')';
 				$stmtP = $conn->query( $queryP );
 				while ( $rowP = $stmtP->fetch( PDO::FETCH_ASSOC ) ){
 					$P = 0;
 
 					$A = 0;
-					$queryTmp = 'select * from glassCGI.ARTICLES where id in (select id_article from glassCGI.Tournee_PDL_Article where id_tournee = \''.$rowT['id'].'\' and id_pdl = \''.$rowP['id'].'\')';
+					$queryTmp = 'select * from glassCGIt.ARTICLES where id in (select id_article from glassCGIt.Tournee_PDL_Article where id_tournee = \''.$rowT['id'].'\' and id_pdl = \''.$rowP['id'].'\')';
 					$stmtTmp = $conn->query( $queryTmp );
 					while ( $rowTmp = $stmtTmp->fetch( PDO::FETCH_ASSOC ) ){
 						$A = $A + 1;
 					}
 
 					// Article with PDL & Tournée
-					$queryA = 'select * from glassCGI.ARTICLES where id in (select id_article from glassCGI.Tournee_PDL_Article where id_tournee = \''.$rowT['id'].'\' and id_pdl = \''.$rowP['id'].'\')';
+					$queryA = 'select * from glassCGIt.ARTICLES where id in (select id_article from glassCGIt.Tournee_PDL_Article where id_tournee = \''.$rowT['id'].'\' and id_pdl = \''.$rowP['id'].'\')';
 					$stmtA = $conn->query( $queryA );
 					while ( $rowA = $stmtA->fetch( PDO::FETCH_ASSOC ) ){
 						
 						// Satus with Article & PDL & Tournée
-						$queryS = 'select * from glassCGI.Tournee_PDL_Article where id_tournee = \''.$rowT['id'].'\' and id_pdl = \''.$rowP['id'].'\' and id_article = \''.$rowA['id'].'\'';
+						$queryS = 'select * from glassCGIt.Tournee_PDL_Article where id_tournee = \''.$rowT['id'].'\' and id_pdl = \''.$rowP['id'].'\' and id_article = \''.$rowA['id'].'\'';
 						$stmtS = $conn->query( $queryS );
 						while ( $rowS = $stmtS->fetch( PDO::FETCH_ASSOC ) ){
 							$A = $A - 1;
@@ -125,7 +125,7 @@
 							echo '<tr>';
 							if ($T == 0) { // Tournée
 								// Articles dans Tournées
-								$queryTmp = 'select * from glassCGI.Tournee_PDL_Article where id_tournee = \''.$rowT['id'].'\'';;
+								$queryTmp = 'select * from glassCGIt.Tournee_PDL_Article where id_tournee = \''.$rowT['id'].'\'';;
 								$stmtTmp = $conn->query( $queryTmp );
 								$count = 0;
 								while ( $rowTmp = $stmtTmp->fetch( PDO::FETCH_ASSOC ) ){
@@ -137,7 +137,7 @@
 							if ($P == 0) { // Pdl
 								// Articles dans Pdl
 								$count = 0;
-								$queryTmp = 'select * from glassCGI.ARTICLES where id in (select id_article from glassCGI.Tournee_PDL_Article where id_tournee = \''.$rowT['id'].'\' and id_pdl = \''.$rowP['id'].'\')';
+								$queryTmp = 'select * from glassCGIt.ARTICLES where id in (select id_article from glassCGIt.Tournee_PDL_Article where id_tournee = \''.$rowT['id'].'\' and id_pdl = \''.$rowP['id'].'\')';
 								$stmtTmp = $conn->query( $queryTmp );
 								while ( $rowTmp = $stmtTmp->fetch( PDO::FETCH_ASSOC ) ){
 									$count++;
@@ -255,14 +255,14 @@ function getTourneeProgress(){
 	$conn->setAttribute( PDO::SQLSRV_ATTR_QUERY_TIMEOUT, 1 );
 
 	// Tournées Totales
-	$queryT = 'select * from glassCGI.Tournees';
+	$queryT = 'select * from glassCGIt.Tournees';
 	$stmtT = $conn->query( $queryT );
 	$Tt = 0;
 	while ( $rowT = $stmtT->fetch( PDO::FETCH_ASSOC ) ){
 		$Tt = $Tt + 1;
 	}
 	// Tournées Finies
-	$queryT = 'select * from glassCGI.Tournees where id in (select id_tournee from glassCGI.Tournee_PDL_Article where statut_tournee = \'Terminé\')';
+	$queryT = 'select * from glassCGIt.Tournees where id in (select id_tournee from glassCGIt.Tournee_PDL_Article where statut_tournee = \'Terminé\')';
 	$stmtT = $conn->query( $queryT );
 	$Tf = 0;
 	while ( $rowT = $stmtT->fetch( PDO::FETCH_ASSOC ) ){
@@ -280,12 +280,12 @@ function getPdlProgress(){
 	$conn->setAttribute( PDO::SQLSRV_ATTR_QUERY_TIMEOUT, 1 );
 
 	// Tournées Totales
-	$queryT = 'select * from glassCGI.Tournees';
+	$queryT = 'select * from glassCGIt.Tournees';
 	$stmtT = $conn->query( $queryT );
 	$Pt = 0;
 	while ( $rowT = $stmtT->fetch( PDO::FETCH_ASSOC ) ){
 		// PDL with Tournée
-		$queryP = 'select * from glassCGI.PDL where id in (select id_pdl from glassCGI.Tournee_PDL_Article where id_tournee = \''.$rowT['id'].'\')';
+		$queryP = 'select * from glassCGIt.PDL where id in (select id_pdl from glassCGIt.Tournee_PDL_Article where id_tournee = \''.$rowT['id'].'\')';
 		$stmtP = $conn->query( $queryP );
 		while ( $rowP = $stmtP->fetch( PDO::FETCH_ASSOC ) ){
 			$Pt = $Pt + 1;
@@ -294,12 +294,12 @@ function getPdlProgress(){
 	}
 
 	// Tournées Totales
-	$queryT = 'select * from glassCGI.Tournees';
+	$queryT = 'select * from glassCGIt.Tournees';
 	$stmtT = $conn->query( $queryT );
 	$Pf = 0;
 	while ( $rowT = $stmtT->fetch( PDO::FETCH_ASSOC ) ){
 		// PDL Finis with Tournée
-		$queryP = 'select * from glassCGI.PDL where id in (select id_pdl from glassCGI.Tournee_PDL_Article where id_tournee = \''.$rowT['id'].'\' and statut_pdl = \'Terminé\')';
+		$queryP = 'select * from glassCGIt.PDL where id in (select id_pdl from glassCGIt.Tournee_PDL_Article where id_tournee = \''.$rowT['id'].'\' and statut_pdl = \'Terminé\')';
 		$stmtP = $conn->query( $queryP );
 		while ( $rowP = $stmtP->fetch( PDO::FETCH_ASSOC ) ){
 			$Pf = $Pf + 1;
@@ -318,7 +318,7 @@ function getArticleProgress(){
 	$conn->setAttribute( PDO::SQLSRV_ATTR_QUERY_TIMEOUT, 1 );
 
 	// Articles Totales
-	$queryA = 'select * from glassCGI.Tournee_PDL_Article';
+	$queryA = 'select * from glassCGIt.Tournee_PDL_Article';
 	$stmtA = $conn->query( $queryA );
 	$At = 0;
 	while ( $rowA = $stmtA->fetch( PDO::FETCH_ASSOC ) ){
@@ -326,7 +326,7 @@ function getArticleProgress(){
 	}
 
 	// Articles Totales
-	$queryA = 'select * from glassCGI.Tournee_PDL_Article where statut_livraison = \'Livré\'';
+	$queryA = 'select * from glassCGIt.Tournee_PDL_Article where statut_livraison = \'Livré\'';
 	$stmtA = $conn->query( $queryA );
 	$Af = 0;
 	while ( $rowA = $stmtA->fetch( PDO::FETCH_ASSOC ) ){
