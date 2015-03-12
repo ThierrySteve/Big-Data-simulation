@@ -249,7 +249,8 @@ function getMyHeure(){
 
 // Retourne l'avancé des tournées
 function getTourneeProgress(){
-	$conn = new PDO ("sqlsrv:Server= tcp:orh0gtnyo4.database.windows.net,1433 ; Database = DATABASE_GLASS", "googleglass", "PVILpvil122");    
+	//$conn = new PDO ("sqlsrv:Server= tcp:orh0gtnyo4.database.windows.net,1433 ; Database = DATABASE_GLASS", "googleglass", "PVILpvil122");    
+	$conn = new PDO ("sqlsrv:Server= tcp:uovcbcoe7z.database.windows.net,1433 ; Database = DATABASE_GLASS", "azureuser", "Azurerpi15");    
 	$conn->setAttribute( PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION );
 	$conn->setAttribute( PDO::SQLSRV_ATTR_QUERY_TIMEOUT, 1 );
 
@@ -273,7 +274,8 @@ function getTourneeProgress(){
 
 // Retourne l'avancé des Pdls
 function getPdlProgress(){
-	$conn = new PDO ("sqlsrv:Server= tcp:orh0gtnyo4.database.windows.net,1433 ; Database = DATABASE_GLASS", "googleglass", "PVILpvil122");    
+	//$conn = new PDO ("sqlsrv:Server= tcp:orh0gtnyo4.database.windows.net,1433 ; Database = DATABASE_GLASS", "googleglass", "PVILpvil122");    
+	$conn = new PDO ("sqlsrv:Server= tcp:uovcbcoe7z.database.windows.net,1433 ; Database = DATABASE_GLASS", "azureuser", "Azurerpi15");    
 	$conn->setAttribute( PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION );
 	$conn->setAttribute( PDO::SQLSRV_ATTR_QUERY_TIMEOUT, 1 );
 
@@ -310,7 +312,8 @@ function getPdlProgress(){
 
 // Retourne l'avancé des Articles
 function getArticleProgress(){
-	$conn = new PDO ("sqlsrv:Server= tcp:orh0gtnyo4.database.windows.net,1433 ; Database = DATABASE_GLASS", "googleglass", "PVILpvil122");    
+	//$conn = new PDO ("sqlsrv:Server= tcp:orh0gtnyo4.database.windows.net,1433 ; Database = DATABASE_GLASS", "googleglass", "PVILpvil122");    
+	$conn = new PDO ("sqlsrv:Server= tcp:uovcbcoe7z.database.windows.net,1433 ; Database = DATABASE_GLASS", "azureuser", "Azurerpi15");    
 	$conn->setAttribute( PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION );
 	$conn->setAttribute( PDO::SQLSRV_ATTR_QUERY_TIMEOUT, 1 );
 
