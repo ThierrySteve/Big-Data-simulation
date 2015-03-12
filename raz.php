@@ -9,6 +9,7 @@
 		$queryT = 'update glassCGIt.Tournee_PDL_Article set statut_tournee = \'Attente\', statut_pdl = \'Attente\', statut_livraison = \'Attente\'';
 		$stmtT = $conn->query( $queryT );
 		echo "Remise à zéro réussit";
+		header('Location: index.php');
 	} catch ( PDOException $e ) {
 		print( "Error connecting to SQL Server." );
 		die(print_r($e));
