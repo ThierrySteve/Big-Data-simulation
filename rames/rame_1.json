@@ -1,6 +1,7 @@
 {
     "1": {
         "TEMPE_CAB": {
+            "idarduino": 1,
             "values": [
                 15,
                 20,
@@ -30,7 +31,8 @@
                 }
             ]
         },
-        "HUMID_MOT": {
+        "HUMID": {
+            "idarduino": 2,
             "values": [
                 50,
                 75
@@ -51,6 +53,7 @@
             ]
         },
         "LUMIN": {
+            "idarduino": 3,
             "values": [
                 20,
                 40,
@@ -81,6 +84,7 @@
             ]
         },
         "FLAMM": {
+            "idarduino": 4,
             "values": [
                 1
             ],
@@ -95,7 +99,8 @@
                 }
             ]
         },
-        "MAGNE": {
+        "HALLE": {
+            "idarduino": 5,
             "values": [
                 -1,
                 1
@@ -112,6 +117,37 @@
                 {
                     "status": "ko",
                     "message": "Champ magnetique detecte."
+                }
+            ]
+        },
+        "TEMPE_RPI": {
+            "idarduino": 6,
+            "values": [
+                15,
+                20,
+                30,
+                35
+            ],
+            "res": [
+                {
+                    "status": "ko",
+                    "message": "Temperature inferieure a la limite"
+                },
+                {
+                    "status": "warn",
+                    "message": "Attention temperature faible..."
+                },
+                {
+                    "status": "ok",
+                    "message": "Temperature OK."
+                },
+                {
+                    "status": "warn",
+                    "message": "Attention temperature elevee..."
+                },
+                {
+                    "status": "ko",
+                    "message": "Temperature superieure a la limite."
                 }
             ]
         }
