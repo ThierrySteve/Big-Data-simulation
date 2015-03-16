@@ -1,15 +1,102 @@
+
 {
     "1": {
         "TEMPE_CAB" : {
-            "values":"VALUE",
-            "res":"RES",
-            "tab":[15, 20, 30, 35]
-        }
-    },
-    "2": {
-        "TEMPE_CAB" : {
-            "values":"VALUE 2",
-            "res":"RES 2"
-        }
+            "values":[15, 20, 30, 35],
+            "res":[
+                        {
+                            "status":"ko",
+                            "message":"Temperature inferieure a la limite"
+                        },
+                        {
+                            "status":"warn",
+                            "message":"Attention temperature faible..."
+                        },
+                        {
+                            "status":"ok",
+                            "message":"Temperature OK."
+                        },
+                        {
+                            "status":"warn",
+                            "message":"Attention temperature elevee..."
+                        },
+                        {
+                            "status":"ko",
+                            "message":"Temperature superieure a la limite."
+                        }
+                ]
+        },
+        "HUMID_MOT" : {
+            "values":[50, 75],
+            "res":[
+                        {
+                            "status":"ok",
+                            "message":"Humidite OK."
+                        },
+                        {
+                            "status":"warn",
+                            "message":"Attention Humidite elevee..."
+                        },
+                        {
+                            "status":"ko",
+                            "message":"Humidite superieure a la limite."
+                        }
+                ]
+        },
+        "LUMIN" : {
+            "values":[20, 40, 250, 300],
+            "res":[
+                        {
+                            "status":"ko",
+                            "message":"Eclairage superieure a la limite"
+                        },
+                        {
+                            "status":"warn",
+                            "message":"Attention Eclairage elevee..."
+                        },
+                        {
+                            "status":"ok",
+                            "message":"Eclairage OK."
+                        },
+                        {
+                            "status":"warn",
+                            "message":"Attention Eclairage faible..."
+                        },
+                        {
+                            "status":"ko",
+                            "message":"Eclairage inferieur a la limite."
+                        }
+                ]
+        },
+        "FLAMM" : {
+            "values":[1],
+            "res":[
+                        {
+                            "status":"ok",
+                            "message":"Pas de feu detecte."
+                        },
+                        {
+                            "status":"ko",
+                            "message":"feu detecte..."
+                        }
+                ]
+        },
+        "MAGNE" : {
+            "values":[-1,1],
+            "res":[
+                        {
+                            "status":"ko",
+                            "message":"Champ magnetique detecte."
+                        },
+                        {
+                            "status":"ok",
+                            "message":"Aucun champ magnetique."
+                        },
+                        {
+                            "status":"ko",
+                            "message":"Champ magnetique detecte."
+                        }
+                ]
+        },
     }
 }
