@@ -2,7 +2,8 @@
     "1": {
         "TEMPE_CAB" : {
             "values":"VALUE",
-            "res":"RES"
+            "res":"RES",
+            "tab":[15, 20, 30, 35]
         }
     },
     "2": {
