@@ -120,7 +120,7 @@
                 }
             ]
         },
-        "Temperature_machine": {
+        "Temperature machine": {
             "idarduino": 6,
             "values": [
                 15,
