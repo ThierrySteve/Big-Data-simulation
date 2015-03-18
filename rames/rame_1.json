@@ -1,6 +1,6 @@
 {
     "1": {
-        "Température cabine": {
+        "Temperature cabine": {
             "idarduino": 1,
             "values": [
                 15,
@@ -31,7 +31,7 @@
                 }
             ]
         },
-        "Humidité": {
+        "Humidite": {
             "idarduino": 2,
             "values": [
                 50,
@@ -52,7 +52,7 @@
                 }
             ]
         },
-        "Luminosité": {
+        "Luminosite": {
             "idarduino": 3,
             "values": [
                 20,
@@ -83,7 +83,7 @@
                 }
             ]
         },
-        "Présence de flamme": {
+        "Presence de flamme": {
             "idarduino": 4,
             "values": [
                 1
@@ -120,7 +120,7 @@
                 }
             ]
         },
-        "Température_machine": {
+        "Temperature_machine": {
             "idarduino": 6,
             "values": [
                 15,
