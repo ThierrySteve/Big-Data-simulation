@@ -1,6 +1,6 @@
 {
     "1": {
-        "Temperature cabine": {
+        "Température cabine": {
             "idarduino": 1,
             "values": [
                 15,
@@ -31,7 +31,7 @@
                 }
             ]
         },
-        "HUMID": {
+        "Humidité": {
             "idarduino": 2,
             "values": [
                 50,
@@ -52,7 +52,7 @@
                 }
             ]
         },
-        "LUMIN": {
+        "Luminosité": {
             "idarduino": 3,
             "values": [
                 20,
@@ -83,7 +83,7 @@
                 }
             ]
         },
-        "FLAMM": {
+        "Présence de flamme": {
             "idarduino": 4,
             "values": [
                 1
@@ -99,7 +99,7 @@
                 }
             ]
         },
-        "HALLE": {
+        "Effet hall": {
             "idarduino": 5,
             "values": [
                 -1,
@@ -120,7 +120,7 @@
                 }
             ]
         },
-        "TEMPE_RPI": {
+        "Température_machine": {
             "idarduino": 6,
             "values": [
                 15,
