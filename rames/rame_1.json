@@ -163,20 +163,20 @@
             "res": [
                 {
                     "status": "ko",
-                    "message": "Champ magnetique detecte.",
-                    "info": "Champ magnetique detecte.",
+                    "message": "Moteur allume.",
+                    "info": "Moteur allume.",
                     "etapes": []
                 },
                 {
                     "status": "ok",
-                    "message": "Aucun champ magnetique.",
-                    "info": "Aucun champ magnetique.",
+                    "message": "Moteur eteint.",
+                    "info": "Moteur eteint.",
                     "etapes": []
                 },
                 {
                     "status": "ko",
-                    "message": "Champ magnetique detecte.",
-                    "info": "Champ magnetique detecte.",
+                    "message": "Moteur allume.",
+                    "info": "Moteur allume.",
                     "etapes": []
                 }
             ]
