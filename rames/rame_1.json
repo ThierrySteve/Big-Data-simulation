@@ -29,7 +29,7 @@
                 {
                     "status": "ok",
                     "message": "Temperature OK.",
-                    "info": "La temperature de la rame convient parfaitement à son usage",
+                    "info": "La temperature de la rame convient parfaitement a son usage",
                     "etapes": []
                 },
                 {
@@ -61,7 +61,7 @@
                 {
                     "status": "ok",
                     "message": "Humidite OK.",
-                    "info": "L'humidite de la rame convient parfaitement à son usage",
+                    "info": "L'humidite de la rame convient parfaitement a son usage",
                     "etapes": []
                 },
                 {
@@ -112,7 +112,7 @@
                 {
                     "status": "ok",
                     "message": "Eclairage OK.",
-                    "info": "La luminosite de la rame convient parfaitement à son usage",
+                    "info": "La luminosite de la rame convient parfaitement a son usage",
                     "etapes": []
                 },
                 {
@@ -210,7 +210,7 @@
                 {
                     "status": "ok",
                     "message": "Temperature OK.",
-                    "info": "La temperature de la rame convient parfaitement à son usage",
+                    "info": "La temperature de la rame convient parfaitement a son usage",
                     "etapes": []
                 },
                 {
