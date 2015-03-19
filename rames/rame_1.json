@@ -11,23 +11,43 @@
             "res": [
                 {
                     "status": "ko",
-                    "message": "Temperature inferieure a la limite"
+                    "message": "Temperature inferieure a la limite",
+                    "info": "La temperature trop basse ne permet pas le depart de la rame",
+                    "etapes": []
                 },
                 {
                     "status": "warn",
-                    "message": "Attention temperature faible..."
+                    "message": "Attention temperature faible...",
+                    "info": "La basse temperature de la rame oblige un depart surveille",
+                    "etapes": [
+                        {
+                            "action": "Etendre le chauffage !",
+                            "photo": "ampoule.png"
+                        }
+                    ]
                 },
                 {
                     "status": "ok",
-                    "message": "Temperature OK."
+                    "message": "Temperature OK.",
+                    "info": "La temperature de la rame convient parfaitement à son usage",
+                    "etapes": []
                 },
                 {
                     "status": "warn",
-                    "message": "Attention temperature elevee..."
+                    "message": "Attention temperature elevee...",
+                    "info": "La haute temperature de la rame oblige un depart surveille",
+                    "etapes": [
+                        {
+                            "action": "Allumer le chauffage !",
+                            "photo": "ampoule.png"
+                        }
+                    ]
                 },
                 {
                     "status": "ko",
-                    "message": "Temperature superieure a la limite."
+                    "message": "Temperature superieure a la limite.",
+                    "info": "La temperature trop haute ne permet pas le depart de la rame",
+                    "etapes": []
                 }
             ]
         },
@@ -40,15 +60,26 @@
             "res": [
                 {
                     "status": "ok",
-                    "message": "Humidite OK."
+                    "message": "Humidite OK.",
+                    "info": "L'humidite de la rame convient parfaitement à son usage",
+                    "etapes": []
                 },
                 {
                     "status": "warn",
-                    "message": "Attention Humidite elevee..."
+                    "message": "Attention Humidite elevee...",
+                    "info": "La haute humidite de la rame oblige un depart surveille",
+                    "etapes": [
+                        {
+                            "action": "Ouvrir les fenetres !",
+                            "photo": "ampoule.png"
+                        }
+                    ]
                 },
                 {
                     "status": "ko",
-                    "message": "Humidite superieure a la limite."
+                    "message": "Humidite superieure a la limite.",
+                    "info": "L'humidite trop haute ne permet pas le depart de la rame",
+                    "etapes": []
                 }
             ]
         },
@@ -63,23 +94,43 @@
             "res": [
                 {
                     "status": "ko",
-                    "message": "Eclairage superieure a la limite"
+                    "message": "Eclairage superieure a la limite",
+                    "info": "La luminosite trop intense ne permet pas le depart de la rame",
+                    "etapes": []
                 },
                 {
                     "status": "warn",
-                    "message": "Attention Eclairage elevee..."
+                    "message": "Attention Eclairage elevee...",
+                    "info": "L'intense luminosite de la rame oblige un depart surveille",
+                    "etapes": [
+                        {
+                            "action": "Changer l'ampoule !",
+                            "photo": "ampoule.png"
+                        }
+                    ]
                 },
                 {
                     "status": "ok",
-                    "message": "Eclairage OK."
+                    "message": "Eclairage OK.",
+                    "info": "La luminosite de la rame convient parfaitement à son usage",
+                    "etapes": []
                 },
                 {
                     "status": "warn",
-                    "message": "Attention Eclairage faible..."
+                    "message": "Attention Eclairage faible...",
+                    "info": "La faible luminosite de la rame oblige un depart surveille",
+                    "etapes": [
+                        {
+                            "action": "Changer l'ampoule !",
+                            "photo": "ampoule.png"
+                        }
+                    ]
                 },
                 {
                     "status": "ko",
-                    "message": "Eclairage inferieur a la limite."
+                    "message": "Eclairage inferieur a la limite.",
+                    "info": "La luminosite trop faible ne permet pas le depart de la rame",
+                    "etapes": []
                 }
             ]
         },
@@ -91,11 +142,15 @@
             "res": [
                 {
                     "status": "ok",
-                    "message": "Pas de feu detecte."
+                    "message": "Pas de feu detecte.",
+                    "info": "Pas de feu",
+                    "etapes": []
                 },
                 {
                     "status": "ko",
-                    "message": "feu detecte..."
+                    "message": "feu detecte...",
+                    "info": "Feu",
+                    "etapes": []
                 }
             ]
         },
@@ -108,15 +163,21 @@
             "res": [
                 {
                     "status": "ko",
-                    "message": "Champ magnetique detecte."
+                    "message": "Champ magnetique detecte.",
+                    "info": "Champ magnetique detecte.",
+                    "etapes": []
                 },
                 {
                     "status": "ok",
-                    "message": "Aucun champ magnetique."
+                    "message": "Aucun champ magnetique.",
+                    "info": "Aucun champ magnetique.",
+                    "etapes": []
                 },
                 {
                     "status": "ko",
-                    "message": "Champ magnetique detecte."
+                    "message": "Champ magnetique detecte.",
+                    "info": "Champ magnetique detecte.",
+                    "etapes": []
                 }
             ]
         },
@@ -131,23 +192,43 @@
             "res": [
                 {
                     "status": "ko",
-                    "message": "Temperature inferieure a la limite"
+                    "message": "Temperature inferieure a la limite",
+                    "info": "La temperature trop basse ne permet pas le depart de la rame",
+                    "etapes": []
                 },
                 {
                     "status": "warn",
-                    "message": "Attention temperature faible..."
+                    "message": "Attention temperature faible...",
+                    "info": "La basse temperature de la rame oblige un depart surveille",
+                    "etapes": [
+                        {
+                            "action": "Etendre le chauffage !",
+                            "photo": "ampoule.png"
+                        }
+                    ]
                 },
                 {
                     "status": "ok",
-                    "message": "Temperature OK."
+                    "message": "Temperature OK.",
+                    "info": "La temperature de la rame convient parfaitement à son usage",
+                    "etapes": []
                 },
                 {
                     "status": "warn",
-                    "message": "Attention temperature elevee..."
+                    "message": "Attention temperature elevee...",
+                    "info": "La haute temperature de la rame oblige un depart surveille",
+                    "etapes": [
+                        {
+                            "action": "Allumer le chauffage !",
+                            "photo": "ampoule.png"
+                        }
+                    ]
                 },
                 {
                     "status": "ko",
-                    "message": "Temperature superieure a la limite."
+                    "message": "Temperature superieure a la limite.",
+                    "info": "La temperature trop haute ne permet pas le depart de la rame",
+                    "etapes": []
                 }
             ]
         }
