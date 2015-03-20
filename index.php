@@ -2,13 +2,13 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<title>SALM - Suivi Livraion</title>
+	<title>Suivi Livraion</title>
 	<link rel="stylesheet" type="text/css" href="custom.css">
 </head>
 <body >
 	<div class="TopHeader"> 
 		<div class="LogoContainer">
-			<img src="SALM_logo.jpg" alt="Logo Salm" class="LogoSalm">
+			<!-- <img src="SALM_logo.jpg" alt="Logo Salm" class="LogoSalm"> -->
 		</div>
 		<div class="HorodatageContainer">
 			<span class="HorodatageLabel">Dernière mise à jour : </span>
