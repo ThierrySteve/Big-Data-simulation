@@ -31,7 +31,7 @@
                     "status": "warn",
                     "message": "Attention temperature elevee...",
                     "info": "La haute temperature de la rame oblige un depart surveille",
-                    "etapes": "image:ca.jpg,etape:une longue etape 1;image:ca2.jpg,etape:une autre longue etape 2"
+                    "etapes": "image:salm-by-manuft.azurewebsites.net/rames/sources/DR-3450.jpg,etape:une longue etape 1;image:salm-by-manuft.azurewebsites.net/rames/sources/GH-6854.jpg,etape:une autre longue etape 2"
                 },
                 {
                     "status": "ko",
