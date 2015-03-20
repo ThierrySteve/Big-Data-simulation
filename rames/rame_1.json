@@ -19,7 +19,7 @@
                     "status": "warn",
                     "message": "Attention temperature faible...",
                     "info": "La basse temperature de la rame oblige un depart surveille",
-                    "etapes": "image:ca.jpg,etape:une longue étape 1;image:ca2.jpg,etape:une autre longue étape 2"
+                    "etapes": "image:ca.jpg,etape:une longue etape 1;image:ca2.jpg,etape:une autre longue etape 2"
                 },
                 {
                     "status": "ok",
@@ -31,7 +31,7 @@
                     "status": "warn",
                     "message": "Attention temperature elevee...",
                     "info": "La haute temperature de la rame oblige un depart surveille",
-                    "etapes": "image:ca.jpg,etape:une longue étape 1;image:ca2.jpg,etape:une autre longue étape 2"
+                    "etapes": "image:ca.jpg,etape:une longue etape 1;image:ca2.jpg,etape:une autre longue etape 2"
                 },
                 {
                     "status": "ko",
@@ -58,7 +58,7 @@
                     "status": "warn",
                     "message": "Attention Humidite elevee...",
                     "info": "La haute humidite de la rame oblige un depart surveille",
-                    "etapes": "image:ca.jpg,etape:une longue étape 1;image:ca2.jpg,etape:une autre longue étape 2"
+                    "etapes": "image:ca.jpg,etape:une longue etape 1;image:ca2.jpg,etape:une autre longue etape 2"
                 },
                 {
                     "status": "ko",
@@ -87,7 +87,7 @@
                     "status": "warn",
                     "message": "Attention Eclairage elevee...",
                     "info": "L'intense luminosite de la rame oblige un depart surveille",
-                    "etapes": "image:ca.jpg,etape:une longue étape 1;image:ca2.jpg,etape:une autre longue étape 2"
+                    "etapes": "image:ca.jpg,etape:une longue etape 1;image:ca2.jpg,etape:une autre longue etape 2"
                 },
                 {
                     "status": "ok",
@@ -99,7 +99,7 @@
                     "status": "warn",
                     "message": "Attention Eclairage faible...",
                     "info": "La faible luminosite de la rame oblige un depart surveille",
-                    "etapes": "image:ca.jpg,etape:une longue étape 1;image:ca2.jpg,etape:une autre longue étape 2"
+                    "etapes": "image:ca.jpg,etape:une longue etape 1;image:ca2.jpg,etape:une autre longue etape 2"
                 },
                 {
                     "status": "ko",
@@ -175,7 +175,7 @@
                     "status": "warn",
                     "message": "Attention temperature faible...",
                     "info": "La basse temperature de la rame oblige un depart surveille",
-                    "etapes": "image:ca.jpg,etape:une longue étape 1;image:ca2.jpg,etape:une autre longue étape 2"
+                    "etapes": "image:ca.jpg,etape:une longue etape 1;image:ca2.jpg,etape:une autre longue etape 2"
                 },
                 {
                     "status": "ok",
@@ -187,7 +187,7 @@
                     "status": "warn",
                     "message": "Attention temperature elevee...",
                     "info": "La haute temperature de la rame oblige un depart surveille",
-                    "etapes": "image:ca.jpg,etape:une longue étape 1;image:ca2.jpg,etape:une autre longue étape 2"
+                    "etapes": "image:ca.jpg,etape:une longue etape 1;image:ca2.jpg,etape:une autre longue etape 2"
                 },
                 {
                     "status": "ko",
