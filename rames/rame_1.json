@@ -19,7 +19,7 @@
                     "status": "warn",
                     "message": "Attention temperature faible...",
                     "info": "La basse temperature de la rame oblige un depart surveille",
-                    "etapes": "image:salm-by-manuft.azurewebsites.net/rames/sources/DR-3450.jpg,etape:une longue etape 1;image:salm-by-manuft.azurewebsites.net/rames/sources/GH-6854.jpg,etape:une autre longue etape 2"
+                    "etapes": "image:salm-by-manuft.azurewebsites.net/rames/sources/DR-3450.jpg,etape:Ouvrir le panneau B453 situe a l'arriere de la rame;image:salm-by-manuft.azurewebsites.net/rames/sources/GH-6854.jpg,etape:Basculer l'interupteur 345T en position basse;image:salm-by-manuft.azurewebsites.net/rames/sources/DR-3450.jpg,etape:Refermer le panneau B453 situe a l'arriere de la rame"
                 },
                 {
                     "status": "ok",
@@ -31,7 +31,7 @@
                     "status": "warn",
                     "message": "Attention temperature elevee...",
                     "info": "La haute temperature de la rame oblige un depart surveille",
-                    "etapes": "image:salm-by-manuft.azurewebsites.net/rames/sources/DR-3450.jpg,etape:une longue etape 1;image:salm-by-manuft.azurewebsites.net/rames/sources/GH-6854.jpg,etape:une autre longue etape 2"
+                    "etapes": "image:salm-by-manuft.azurewebsites.net/rames/sources/DR-3450.jpg,etape:Ouvrir le panneau B453 situe a l'arriere de la rame;image:salm-by-manuft.azurewebsites.net/rames/sources/GH-6854.jpg,etape:Basculer l'interupteur 345T en position basse;image:salm-by-manuft.azurewebsites.net/rames/sources/DR-3450.jpg,etape:Refermer le panneau B453 situe a l'arriere de la rame"
                 },
                 {
                     "status": "ko",
@@ -58,7 +58,7 @@
                     "status": "warn",
                     "message": "Attention Humidite elevee...",
                     "info": "La haute humidite de la rame oblige un depart surveille",
-                    "etapes": "image:salm-by-manuft.azurewebsites.net/rames/sources/DR-3450.jpg,etape:une longue etape 1;image:salm-by-manuft.azurewebsites.net/rames/sources/GH-6854.jpg,etape:une autre longue etape 2"
+                    "etapes": "image:salm-by-manuft.azurewebsites.net/rames/sources/DR-3450.jpg,etape:Ouvrir le panneau B453 situe a l'arriere de la rame;image:salm-by-manuft.azurewebsites.net/rames/sources/GH-6854.jpg,etape:Basculer l'interupteur 345T en position basse;image:salm-by-manuft.azurewebsites.net/rames/sources/DR-3450.jpg,etape:Refermer le panneau B453 situe a l'arriere de la rame"
                 },
                 {
                     "status": "ko",
@@ -87,7 +87,7 @@
                     "status": "warn",
                     "message": "Attention Eclairage elevee...",
                     "info": "L'intense luminosite de la rame oblige un depart surveille",
-                    "etapes": "image:salm-by-manuft.azurewebsites.net/rames/sources/DR-3450.jpg,etape:une longue etape 1;image:salm-by-manuft.azurewebsites.net/rames/sources/GH-6854.jpg,etape:une autre longue etape 2"
+                    "etapes": "image:salm-by-manuft.azurewebsites.net/rames/sources/DR-3450.jpg,etape:Ouvrir le panneau B453 situe a l'arriere de la rame;image:salm-by-manuft.azurewebsites.net/rames/sources/GH-6854.jpg,etape:Basculer l'interupteur 345T en position basse;image:salm-by-manuft.azurewebsites.net/rames/sources/DR-3450.jpg,etape:Refermer le panneau B453 situe a l'arriere de la rame"
                 },
                 {
                     "status": "ok",
@@ -99,7 +99,7 @@
                     "status": "warn",
                     "message": "Attention Eclairage faible...",
                     "info": "La faible luminosite de la rame oblige un depart surveille",
-                    "etapes": "image:salm-by-manuft.azurewebsites.net/rames/sources/DR-3450.jpg,etape:une longue etape 1;image:salm-by-manuft.azurewebsites.net/rames/sources/GH-6854.jpg,etape:une autre longue etape 2"
+                    "etapes": "image:salm-by-manuft.azurewebsites.net/rames/sources/DR-3450.jpg,etape:Ouvrir le panneau B453 situe a l'arriere de la rame;image:salm-by-manuft.azurewebsites.net/rames/sources/GH-6854.jpg,etape:Basculer l'interupteur 345T en position basse;image:salm-by-manuft.azurewebsites.net/rames/sources/DR-3450.jpg,etape:Refermer le panneau B453 situe a l'arriere de la rame"
                 },
                 {
                     "status": "ko",
@@ -175,7 +175,7 @@
                     "status": "warn",
                     "message": "Attention temperature faible...",
                     "info": "La basse temperature de la rame oblige un depart surveille",
-                    "etapes": "image:salm-by-manuft.azurewebsites.net/rames/sources/DR-3450.jpg,etape:une longue etape 1;image:salm-by-manuft.azurewebsites.net/rames/sources/GH-6854.jpg,etape:une autre longue etape 2"
+                    "etapes": "image:salm-by-manuft.azurewebsites.net/rames/sources/DR-3450.jpg,etape:Ouvrir le panneau B453 situe a l'arriere de la rame;image:salm-by-manuft.azurewebsites.net/rames/sources/GH-6854.jpg,etape:Basculer l'interupteur 345T en position basse;image:salm-by-manuft.azurewebsites.net/rames/sources/DR-3450.jpg,etape:Refermer le panneau B453 situe a l'arriere de la rame"
                 },
                 {
                     "status": "ok",
@@ -187,7 +187,7 @@
                     "status": "warn",
                     "message": "Attention temperature elevee...",
                     "info": "La haute temperature de la rame oblige un depart surveille",
-                    "etapes": "image:salm-by-manuft.azurewebsites.net/rames/sources/DR-3450.jpg,etape:une longue etape 1;image:salm-by-manuft.azurewebsites.net/rames/sources/GH-6854.jpg,etape:une autre longue etape 2"
+                    "etapes": "image:salm-by-manuft.azurewebsites.net/rames/sources/DR-3450.jpg,etape:Ouvrir le panneau B453 situe a l'arriere de la rame;image:salm-by-manuft.azurewebsites.net/rames/sources/GH-6854.jpg,etape:Basculer l'interupteur 345T en position basse;image:salm-by-manuft.azurewebsites.net/rames/sources/DR-3450.jpg,etape:Refermer le panneau B453 situe a l'arriere de la rame"
                 },
                 {
                     "status": "ko",
