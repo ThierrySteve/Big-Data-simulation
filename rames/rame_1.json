@@ -112,19 +112,19 @@
         "Presence de flamme": {
             "idarduino": 4,
             "values": [
-                1
+                2
             ],
             "res": [
-                {
-                    "status": "ok",
-                    "message": "Pas de feu detecte.",
-                    "info": "Pas de feu",
-                    "etapes": "Null"
-                },
                 {
                     "status": "ko",
                     "message": "feu detecte...",
                     "info": "Feu",
+                    "etapes": "Null"
+                },
+                {
+                    "status": "ok",
+                    "message": "Pas de feu detecte.",
+                    "info": "Pas de feu",
                     "etapes": "Null"
                 }
             ]
@@ -132,8 +132,8 @@
         "Effet hall": {
             "idarduino": 5,
             "values": [
-                -1,
-                1
+                400,
+                700
             ],
             "res": [
                 {
