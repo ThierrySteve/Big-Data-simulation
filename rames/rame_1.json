@@ -132,26 +132,19 @@
         "Effet hall": {
             "idarduino": 5,
             "values": [
-                400,
-                700
+                260
             ],
             "res": [
                 {
-                    "status": "ko",
-                    "message": "Moteur allume.",
-                    "info": "Moteur allume.",
-                    "etapes": "Null"
-                },
-                {
                     "status": "ok",
-                    "message": "Moteur eteint.",
-                    "info": "Moteur eteint.",
+                    "message": "Rame connectee.",
+                    "info": "Rame connectee.",
                     "etapes": "Null"
                 },
                 {
                     "status": "ko",
-                    "message": "Moteur allume.",
-                    "info": "Moteur allume.",
+                    "message": "Rame decrochee.",
+                    "info": "Rame decrochee.",
                     "etapes": "Null"
                 }
             ]
