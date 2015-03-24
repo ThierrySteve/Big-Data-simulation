@@ -205,7 +205,7 @@
             "res": [
                 {
                     "status": "ok",
-                    "message": "Moteur a l'arret.",
+                    "message": "Moteur arrete.",
                     "info": "Null",
                     "etapes": "Null"
                 },
