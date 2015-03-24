@@ -196,6 +196,26 @@
                     "etapes": "Null"
                 }
             ]
+        },
+        "Intensite moteur": {
+            "idarduino": 7,
+            "values": [
+                30
+            ],
+            "res": [
+                {
+                    "status": "ok",
+                    "message": "Moteur a l'arret.",
+                    "info": "Null",
+                    "etapes": "Null"
+                },
+                {
+                    "status": "ko",
+                    "message": "Moteur en fonctionnement.",
+                    "info": "Null",
+                    "etapes": "Null"
+                }
+            ]
         }
     }
 }
