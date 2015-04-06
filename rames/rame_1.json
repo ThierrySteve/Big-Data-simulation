@@ -92,8 +92,8 @@
                 {
                     "status": "ok",
                     "message": "Eclairage OK.",
-                    "info": "La luminosite de la rame convient parfaitement a son usage",
-                    "etapes": "Null"
+                    "info": "L'intense luminosite de la rame oblige un depart surveille",
+                    "etapes": "image:salm-by-manuft.azurewebsites.net/rames/sources/DR-3450.jpg,etape:Ouvrir le panneau B453 situe a l'arriere de la rame;image:salm-by-manuft.azurewebsites.net/rames/sources/GH-6854.jpg,etape:Basculer l'interupteur 345T en position basse;image:salm-by-manuft.azurewebsites.net/rames/sources/DR-3450.jpg,etape:Refermer le panneau B453 situe a l'arriere de la rame"
                 },
                 {
                     "status": "warn",
